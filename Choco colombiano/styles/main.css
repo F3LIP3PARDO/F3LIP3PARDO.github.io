@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(9, 35, 113);
+    background-color: rgb(242, 235, 40);
+
+}
+
+#fondo{
+    color: #0095cb;
+}
+#titulo{
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#Cabeza{
+    color: black;
+}
+
+#start{
+    color: black;
+}
+.menu{
+    color: black;
+}
