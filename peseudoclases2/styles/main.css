@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(203, 81, 15);
+    background-color: rgb(10, 8, 45);
+}
+
+#ja::before {
+    color: #c62828;
+    content: "peligro solo para humanos ";
+}
+
+#ham:after {
+    color: #a49f1c;
+    content: " !Que delicia!";
+}
+
+#pizz::after {
+    color: #a41414;
+    content: ":peligro puede ser provocativo verlo";
+}
+
+#pall:hover {
+    color: #0e9a79;
+}
+
+#pall::after {
+    color: #a41414;
+    content: ":ALERTA DE SPOILER";
+}
