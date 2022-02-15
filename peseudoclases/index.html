@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head title="peseudoclases">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+
+<body>
+    <h4 style="text-align: Center; font-size: 24px; font-family: Arial, Helvetica, sans-serif;">Definicion de la pseudoclase o del pseudoelemento</h4>
+    <div id="st">
+        <h2>Pseudo-clases y pseudo-elementos</h2>
+        <ul>
+            <li>
+                Las hojas de estilo asocian características de estilo a los elementos basándose en las etiquetas de los elementos y en su posición relativa (en el árbol del documento). Las pseudo-clases y los pseudo-elementos permiten hacer referencia a determinados
+                elementos sin basarse en la información contenida en el árbol del documento. La diferencia entre pseudo-clases y pseudo-elementos es sutil. En general, los pseudo-elementos suelen hacer referencia a determinadas partes de un elemento,
+                mientras que las pseudo-clases suelen hacer referencia al estado del elemento.
+            </li>
+        </ul>
+    </div>
+
+    <h2>Pseudo-clases</h2>
+    <div id="qe">
+        <ul>
+            <li>
+                La pseudo-clase :first-child hace referencia al primer elemento de un tipo contenido dentro de otro. El ejemplo siguiente muestra cómo identificar al primer párrafo dentro de una división sin necesidad de asignar ninguna clase al párrafo.
+            </li>
+        </ul>
+    </div>
+
+    <h2>Las pseudo-clases de enlace :link y :visited</h2>
+    <ul id="qr">
+        <li>
+            La pseudo clase :link (o a:link) permite especificar el aspecto de los enlaces que todavía no han sido visitados. La pseudo clase :visited (o a:visited) permite especificar el aspecto de los enlaces que sí han sido visitados. La pseudo-clase :link establece
+            el aspecto de los enlaces no visitados, pero si sólo se incluye en la hoja de estilo la pseudo-clase :link, el aspecto no cambiará al hacer clic en los enlaces:
+            <a href="https://www.mclibre.org/consultar/htmlcss/css/css-pseudoclases.html">aqui</a>
+        </li>
+    </ul>
+
+    <h2>La pseudo-clase dinámica :hover</h2>
+
+    <ul>
+        <li>
+
+            <p>
+                La pseudo-clase :hover permite especificar el aspecto del elemento sobre el que se encuentra el ratón.
+                <a class="hover" href="https://www.mclibre.org/consultar/htmlcss/css/css-pseudoclases.html">click</a>
+            </p>
+        </li>
+    </ul>
+
+    <h2>La pseudo-clase dinámica :active</h2>
+
+    <ul>
+        <li>
+            <p id="as">La pseudo-clase :active permite especificar el aspecto de un elemento cuando se hace clic sobre él (y mientras se mantiene el botón del ratón apretado).</p>
+        </li>
+    </ul>
+
+    <h2>La pseudo-clase de idioma :lang()</h2>
+
+    <ul>
+        <li>
+            La pseudo-clase de idioma :lang() permite especificar el aspecto de los elementos de un idioma determinado. En el ejemplo siguiente se cambia las comillas utilizadas en una cita q según el idioma indicado en el atributo lang:
+        </li>
+        <br>
+        <li>
+            <p id="lang">Ambrose Bierce dijo (más o menos) que <q lang="es">una cita es una manera de repetir erróneamente las
+                    palabras de otros</q>.</p>
+            <p id="long">Ambrose Bierce dijo (más o menos) que <q lang="en">a quotation is the act of repeating erroneously the words of another</q>.</p>
+        </li>
+    </ul>
+
+    <h1>Los pseudo-elementos</h1>
+    <h2>El pseudo-elemento ::first-line</h2>
+    <ul>
+        <li id="line">
+            El pseudo-elemento ::first-line permite especificar el aspecto de la primera línea de texto.
+        </li>
+    </ul>
+
+    <h2>El pseudo-elemento ::first-letter</h2>
+    <p::>
+        <ul>
+            <li id="pi">
+                El pseudo-elemento ::first-letter permite especificar el aspecto de la primera letra de texto.
+    </p::>
+    </li>
+    </ul>
+    <br>
+    <h2>pseudo-elementos ::before</h2>
+    <ul>
+        <li class="before">
+            sirve para añadir contenido antes de un elemento
+        </li>
+    </ul>
+
+    <h2>pseudo-elementos ::after</h2>
+    <ul>
+        <li class="after">
+            permiten añadir contenido a un elemento desde la hoja de estilo, al final del elemento.
+        </li>
+    </ul>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy" style="color: rgb(196, 190, 25);">felipe &copy; 2021</p>
+        </div>
+    </footer>
+</body>
+<HTml>
