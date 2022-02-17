@@ -1,0 +1,38 @@
+#we {
+    background-color: #0a1c2e;
+}
+
+#elementos {
+    background-color: #5AA4E0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #A8323B;
+}
+
+#diseno {
+    background-color: #fafcfe;
+}
+
+#diseno {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+.tabla {
+    background-color: aliceblue;
+}
+
+.historia {
+    display: inline-block;
+    color: rgb(193, 193, 27);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.argumentos {
+    display: inline-block;
+    color: rgb(193, 193, 27);
+    font-family: 'Libre Baskerville', serif;
+}
