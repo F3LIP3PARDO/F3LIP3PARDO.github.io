@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Libre+Baskerville&family=Poppins:wght@100&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Libre+Baskerville&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedorTitu {
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgb(251, 251, 251, 0.3);
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    width: 1000%;
+}
+
+#fondo {
+    background-image: url('../images/pastor-aleman-con-cachorros.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+#contenedorTitu {
+    color: #fff;
+    display: flex;
+    width: 100%;
+}
+
+#titulo {
+    float: left;
+}
+
+#contenedorCont {
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 22px;
+}
+
+.Cabeza {
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: rgb(149, 164, 165, 0.5);
+    padding: 5px;
+}
+
+.Cabeza h1 {
+    float: left;
+    background-color: rgb(149, 164, 165, 0.5);
+}
+
+.ContenedorNav {
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgb(251, 251, 251, 0.3);
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    width: 100%
+}
+
+.menu {
+    float: right;
+    margin-top: -70px;
+    display: block;
+    font-family: 'Shadows Into Light Two';
+    font-size: x-large;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    height: -145;
+    top: 0px;
+    padding: 0px;
+}
+
+.menu a {
+    color: white;
+    text-align: none;
+    padding: 5px 10px;
+    ;
+}
+
+.menu a :hover {
+    background-color: rgba(251, 251, 251, 0.5);
+}
+
+.contenedorprincipal {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contenedorprincipal {
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    padding: 5px 10px;
+}
+
+#principal {
+    color: white;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    position: sticky;
+    padding: 10px;
+    top: 55%;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+table img {
+    width: 400px;
+    height: 200px;
+}
+
+.caracteristicas {
+    margin-left: 50px;
+}
+
+iframe {
+    background-position: center;
+    margin-left: 300px;
+}
+
+footer {
+    color: #9c27b0;
+    font-family: ui-sans-serif;
+}
+
+.volver a {
+    margin-top: -70px;
+    font-family: 'Shadows Into Light Two';
+}
