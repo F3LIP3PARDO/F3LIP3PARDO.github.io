@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comfortaa:wght@500&family=Libre+Baskerville&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: 'Akaya Telivigala', cursive;
+     background-color: #4F9FDB;
+ }
+ 
+ form {
+     margin: 0 auto;
+     width: 300px;
+     background-color: #FFC875;
+     padding: 10px;
+     border-radius: 5px;
+ }
+ 
+ input text {
+     outline: none;
+     border: none;
+ }
+ 
+ #button {
+     width: 64px;
+     font-style: rgb(142, 12, 12);
+ }
