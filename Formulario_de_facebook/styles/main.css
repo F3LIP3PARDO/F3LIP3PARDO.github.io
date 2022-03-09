@@ -12,13 +12,26 @@ body {
     line-height: 1.34;
 }
 
+#inicio{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
 form {
     margin: 0 auto;
     width: 410px;
-    background-color: #ebe8e8ef;
+    background-color: #ffffffef;
     padding: 10px;
     border-radius: 5px;
     margin-top: 100px;
+    border: 2px solid black;
 }
 
 input text {
@@ -49,10 +62,10 @@ input text {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    background: white;
+    background: #ffffffef;
     border: 1px solid #ccd0d5;
     padding: 0 10px 0 10px;
-    border-right-width: 4px
+    border-right-width: 1px
 }
 
 #masculino {
@@ -61,7 +74,7 @@ input text {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    background: white;
+    background: #ffffffef;
     border: 1px solid #ccd0d5;
     padding: 0 10px 0 10px;
 }
@@ -72,33 +85,55 @@ input text {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    background: white;
+    background: #ffffffef;
     border: 1px solid #ccd0d5;
     padding: 0 10px 0 10px;
 }
 
 #button {
-    width: 64px;
-    bottom: rgb(142, 12, 12);
-    background-color: rgb(78, 198, 31);
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    margin-left: 120px;
+    margin-right: 120px;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    display: inline-block;
+
+}
+#button:hover{
+    background-color: #205820e3;
+    color: #00a400;
+
 }
 
 #nombre {
     border-radius: 5px;
     width: 180px;
     height: 40px;
-    background: white;
+    background: #ebe8e8ef;
     border: 1px solid #ccd0d5;
     padding: 0 10px 0 10px;
+    margin-bottom: 10px;
 }
 
 #apellido {
     border-radius: 5px;
     width: 180px;
     height: 40px;
-    background: white;
+    background: #ebe8e8ef;
     border: 1px solid #ccd0d5;
     padding: 0 10px 0 10px;
+    margin-bottom: 10px;
 }
 
 #subtitulo {
@@ -120,19 +155,34 @@ input text {
     border-radius: 5px;
     width: 190px;
     height: 40px;
-    background: white;
+    background: #ebe8e8ef;
     border: 1px solid #ccd0d5;
     font-size: initial;
     width: 385px;
     padding: 0 10px 0 10px;
+    margin-bottom: 10px;
 }
 
-#contrasena {
+#contraseña {
     border-radius: 5px;
-    height: 40px;
-    background: white;
+    background: #ebe8e8ef;
     border: 1px solid #ccd0d5;
-    width: 385px;
-    padding-left: 10px;
-    padding-right: 10px
+    padding-left: 11px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-right: 11px;
+    width: 375px;
+    height: 16px
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #777;
+    font-size: 11px;
+    width: auto;
+    font-family: inherit;
 }
